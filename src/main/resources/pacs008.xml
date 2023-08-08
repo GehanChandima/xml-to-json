@@ -1,0 +1,75 @@
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.07" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <FIToFICstmrCdtTrf>
+        <GrpHdr>
+            <MsgId>AAAAFJFJ0000000039</MsgId>
+            <CreDtTm>2022-04-18T00:00:00-04:00</CreDtTm>
+            <NbOfTxs>1</NbOfTxs>
+            <TtlIntrBkSttlmAmt Ccy="FJD">150.00</TtlIntrBkSttlmAmt>
+            <IntrBkSttlmDt>2022-04-18</IntrBkSttlmDt>
+            <SttlmInf>
+                <SttlmMtd>CLRG</SttlmMtd>
+                <ClrSys>
+                    <Prtry>ACH</Prtry>
+                </ClrSys>
+            </SttlmInf>
+            <InstgAgt>
+                <FinInstnId>
+                    <BICFI>AAAAFJFJXXX</BICFI>
+                </FinInstnId>
+            </InstgAgt>
+        </GrpHdr>
+        <CdtTrfTxInf>
+            <PmtId>
+                <InstrId>3445453</InstrId>
+                <EndToEndId>123</EndToEndId>
+                <TxId>AAAA22041800020</TxId>
+            </PmtId>
+            <PmtTpInf>
+                <SvcLvl>
+                    <Cd>SEPA</Cd>
+                </SvcLvl>
+                <LclInstrm>
+                    <Cd>B2B</Cd>
+                </LclInstrm>
+                <CtgyPurp>
+                    <Cd>CASH</Cd>
+                </CtgyPurp>
+            </PmtTpInf>
+            <IntrBkSttlmAmt Ccy="FJD">150.00</IntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <Dbtr>
+                <Nm>Test A20</Nm>
+            </Dbtr>
+            <DbtrAcct>
+                <Id>
+                    <Othr>
+                        <Id>2222222222</Id>
+                    </Othr>
+                </Id>
+            </DbtrAcct>
+            <DbtrAgt>
+                <FinInstnId>
+                    <BICFI>AAAAFJFJXXX</BICFI>
+                </FinInstnId>
+            </DbtrAgt>
+            <CdtrAgt>
+                <FinInstnId>
+                    <BICFI>BBBBFJFJXXX</BICFI>
+                </FinInstnId>
+            </CdtrAgt>
+            <Cdtr>
+                <Nm>Test B20</Nm>
+            </Cdtr>
+            <CdtrAcct>
+                <Id>
+                    <Othr>
+                        <Id>3333333333</Id>
+                    </Othr>
+                </Id>
+            </CdtrAcct>
+            <Purp>
+                <Cd>CASH</Cd>
+            </Purp>
+        </CdtTrfTxInf>
+    </FIToFICstmrCdtTrf>
+</Document>

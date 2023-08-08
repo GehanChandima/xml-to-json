@@ -1,0 +1,81 @@
+{
+  "FIToFICstmrCdtTrf" : {
+    "GrpHdr" : {
+      "MsgId" : "AAAAFJFJ0000000039",
+      "CreDtTm" : "2022-04-18T00:00:00-04:00",
+      "NbOfTxs" : "1",
+      "TtlIntrBkSttlmAmt" : {
+        "Ccy" : "FJD",
+        "" : "150.00"
+      },
+      "IntrBkSttlmDt" : "2022-04-18",
+      "SttlmInf" : {
+        "SttlmMtd" : "CLRG",
+        "ClrSys" : {
+          "Prtry" : "ACH"
+        }
+      },
+      "InstgAgt" : {
+        "FinInstnId" : {
+          "BICFI" : "AAAAFJFJXXX"
+        }
+      }
+    },
+    "CdtTrfTxInf" : {
+      "PmtId" : {
+        "InstrId" : "3445453",
+        "EndToEndId" : "123",
+        "TxId" : "AAAA22041800020"
+      },
+      "PmtTpInf" : {
+        "SvcLvl" : {
+          "Cd" : "SEPA"
+        },
+        "LclInstrm" : {
+          "Cd" : "B2B"
+        },
+        "CtgyPurp" : {
+          "Cd" : "CASH"
+        }
+      },
+      "IntrBkSttlmAmt" : {
+        "Ccy" : "FJD",
+        "" : "150.00"
+      },
+      "ChrgBr" : "SLEV",
+      "Dbtr" : {
+        "Nm" : "Test A20"
+      },
+      "DbtrAcct" : {
+        "Id" : {
+          "Othr" : {
+            "Id" : "2222222222"
+          }
+        }
+      },
+      "DbtrAgt" : {
+        "FinInstnId" : {
+          "BICFI" : "AAAAFJFJXXX"
+        }
+      },
+      "CdtrAgt" : {
+        "FinInstnId" : {
+          "BICFI" : "BBBBFJFJXXX"
+        }
+      },
+      "Cdtr" : {
+        "Nm" : "Test B20"
+      },
+      "CdtrAcct" : {
+        "Id" : {
+          "Othr" : {
+            "Id" : "3333333333"
+          }
+        }
+      },
+      "Purp" : {
+        "Cd" : "CASH"
+      }
+    }
+  }
+}
